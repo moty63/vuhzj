@@ -37,7 +37,7 @@ body {
 }
 
 td{
-    text-align: center;
+  text-align: center;
 }
 
 
@@ -79,7 +79,7 @@ td{
   
 
 .flip-card-back {
-   background-color: white;
+  background-color: white;
   transform: rotateY(180deg);
   text-align: center;
   display: flex;
@@ -93,22 +93,22 @@ a{
   font-size: 60px;
 }
 
-  .fasz {
-    width: 100%;
-    background-color: black;
-    height: 500px;
-    text-align: center;
+.fasz {
+  width: 100%;
+  background-color: black;
+  height: 500px;
+  text-align: center;
 
 }
 
 .fasz span {
-    font-size: 50px;
-    color: white; 
+  font-size: 50px;
+  color: white; 
 }
 
 .fasz img {
-    width: 204px;
-    height: 204px;
+  width: 204px;
+  height: 204px;
 }
 
 @media (max-width: 500px) {
@@ -122,8 +122,4 @@ a{
         font-size: 55px;
     }
     
-}
-
-.fasz table{
-  width: 100%;
 }
