@@ -4,6 +4,11 @@ body {
   padding: 0;
   background-color: #ffffff;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .pultbar {
@@ -122,4 +127,38 @@ a{
         font-size: 55px;
     }
     
+}
+   .fasz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.fasz span {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.kartyak {
+    margin: 0 auto;
+    border-spacing: 30px;
+    border-collapse: separate;
+}
+
+.flip-card {
+    perspective: 1000px;
+}
+
+@media (max-width: 768px) {
+    .kartyak {
+        border-spacing: 15px;
+    }
+    
+    .flip-card-front img,
+    .flip-card-back {
+        width: 200px !important;
+        height: 200px !important;
+    }
 }
